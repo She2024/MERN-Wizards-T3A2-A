@@ -5,7 +5,7 @@ Documentation and planning for  Discussion Board
      Luke Harris
      Jessica Vaz Martins
 
-##Description:
+## Description:
 
 A discussion board to allow staff or group members to discuss and set workflow priorities. Registered users and user classification will manage how users can interact, delete or archive threads. 
 
