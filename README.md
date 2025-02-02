@@ -6,52 +6,51 @@ Documentation and planning for  Discussion Board
      Jessica Vaz Martins
 
 ## R1: Project Overview:
-## Description:
+### Description
+The platform is a discussion board designed to enable staff or group members to discuss and set workflow priorities. It incorporates user registration and classification to manage permissions for interacting with, deleting, or archiving threads. 
 
-A discussion board to allow staff or group members to discuss and set workflow priorities. Registered users and user classification will manage how users can interact, delete or archive threads. 
+### Purpose
+The aim is to facilitate easy collaboration by providing an economical and efficient way for businesses to communicate and plan future workflow priorities. By increasing collaboration without increasing subscription costs, it helps reduce invalid service requests, as staff can better understand which unit manages specific assets or projects. 
 
-## Purpose:
-**Easy collaboration:** An economic and efficient way for business to communicate and plan future workflow priorities.  
-**Reduces subscription costs:** Increase the level of staff collaboration without the cost of increasing user subscriptions. 
-**Reduce invalid service requests:** Reduce the number of invalid tickets being created by staff that are unsure which unit manages the asset or project in question.
+### Functionality/Features
+The discussion board will support informal conversations across the business to map and prioritise workflows for a 12-month plan while allowing flexibility to accommodate changes. Key features include:
+- **Registered User Authentication**: Restricts access to authorised users.
+- **User Classifications**: Manages levels of access and permissions.
+- **Discussion Topics with Replies**: Users can create and participate in topic discussions.
+- **Search Function**: Allows easy location of topics.
+- **Priority/Category Labels**: Helps in organising discussions.
+- **Notifications**: Alerts users to updates or new topics.
+- **Admin Functions**: Includes options to delete, archive, and set priority levels for discussions.
+- **JIRA API Link to the Cards**: Integrate with JIRA via its API, allowing users to link discussion threads directly to JIRA cards. This facilitates a seamless transition between planning and execution phases by maintaining direct access to task details and status updates within the JIRA platform.
 
-## Functionality/features:
+### Target Audience
+The platform targets companies or groups that need to collaborate on workflow planning and establish open discussion channels.
+- **Project Managers**: To oversee and prioritise project discussions and workflows.
+- **Team Leads**: To engage their teams in collaborative discussions and contribute to setting priorities.
+- **Staff Members**: To participate in discussions, offer insights, and help in decision-making processes related to workflow priorities.
+- **IT Administrators**: To manage user roles and ensure secure and efficient platform usage
 
-The discussion board will allow for an informal conversation across the business to map and prioritise workflow for the 12-month plan and allow priorities to pivot to accommodate work that may impact the planned deliverables. 
-     •	Registered user authentication to restrict access 
-     •	User classifications to manage levels of access
-     •	Discussion topics with reply options
-     •	Search function to locate topics
-     •	Priority/category labels 
-     •	Notification to alert relevant user of updates or new topics
-     •	Admin functions to deleting, archiving and setting priority levels
+### Tech Stack
 
-## Target audience:
-Companies or groups that need to collaborate on workflow planning and create open discussion channels. 
+- **Frontend**: Built using React.js to provide a dynamic and intuitive user interface.
 
-## Tech Stack: 
-### Frontend
-*Frontend:* React.js (UI) 
-Insert details
+- **Backend**: Developed with Node.js and Express, featuring:
+  - **Schemas**:
+    - **postSchema**: Includes title, content, author, creation date, and a reply array.
+    - **replySchema**: Comprises content, author, creation date, and links to parent posts.
+  - **API Endpoints**:
+    - `get-all-posts`: Fetches all posts.
+    - `get-post-by-ID`: Retrieves specific posts by ID.
+    - `create-new-posts`: Allows the creation of new discussions.
+    - `create-reply-to-posts`: Facilitates replying to posts.
+  - **Replies Management**:
+    - Replies are saved to the database and linked to the parent post.
+    - Posts with replies are fetched to display full discussions on the frontend.
+  - **Error Handling**: Returns meaningful error messages to users when exceptions occur.
 
-## Backend
-*Backend:* Node.js with Express
-     •	Schemas: 
-     •	postSchema: title, content, author, creation date, and reply array. 
-     •	replySchema : content, author, creation date, and link to parent post.
-     •	API Endpoints:  routes:
-     •	get-all-posts
-     •	get-post-by -ID
-     •	create-new-posts
-     •	create-reply-to-posts
-     •	Replies: 
-     •	 saved to the database
-     •	reply ID is added to related post's replies array linking the post and its replies
-     •	Fetching Posts and Replies: Retrieve posts with replies, frontend displays full discussions for improved UX.
-     •	Error Handling: API method includes error handling, returning meaningful error messages to the user.
+- **Database**: Utilises MongoDB to efficiently store and manage data.
 
-## Database: MongoDB Atlas Authentication: JWT for business accounts, OTPAuth library for TOTP generation and verification 
-## Hosting: Netlify for the frontend
+- **Hosting**: The application is hosted on Netlify, ensuring reliable availability and scalability.
 -----
 ## R2: Dataflow Diagram	
 - Marking Guide:
