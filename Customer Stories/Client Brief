@@ -1,0 +1,65 @@
+# Client Brief
+
+Our real-world client Life Stats is looking for an economic and efficient way for business units and sub-units to communicate and plan future workflow priorities for web asset Continuous Quality Improvement (CQI) while being able to pivot priorities when urgent tasks or project needs arise. 
+They currently use Trello and Jira for workflow management but wish to increase the level of staff collaboration without the cost of increasing user subscriptions. 
+
+## Understanding The Company:
+The Life Stats company consists of 5 main business units that are broken down into a further 9 sub-units. 
+    
+### Operations:
+
+A customer service unit that manages essential service requests and product sales. These interactions include single one-off transactions and small-scale business transaction not under an ongoing client contract. 
+    1.	Customer service 
+    2.	Event Services
+    3.	Record management 
+
+Operations host information on their products and service for public. Their web assets include static and dynamic pages that host event calendars, online forms and a range of image galleries.  These web assets require updates with changes to products and service availability, closure office notices and service maintenance notices. 
+The Events Services team also maintain a functions service with an overflow location used for peak times. Calendar booking features for functions and overflow locations require regularly updated. 
+
+### Business Development:
+
+Responsible for managing the needs of large-scale clients under service agreements and driving business needs.
+
+
+    1.	Client Management
+    2.	Data Management
+    3.	Marketing
+
+Client Management maintain relationships with and managing the needs of large-scale clients under service agreements and community engagement and support for minority groups and vulnerable people. The collection of data, and processing of client requests are managed through the Service Portal and clients are assigned a dedicated client manager with specialised knowledge complimenting the client service needs. 
+
+Data Management team control collection of national data and dispersal of large data packets used for a research and data cleansing. They also process the applications for, and release of specialised data packets to authorised clients contracted for singular or regular data releases based on the approved contract. 
+Marketing team design and provided printed collateral for dispersal to targeted communities and groups to advance business initiatives. They also manage image licencing, brand partnership, news and social media content. 
+
+### Policy & Compliance:
+
+This unit ensure legislative compliance with interactions from an individual to a contract level. They ensure privacy and security of confidential information across the business and provide the first level investigations into, contested decisions and allegation of fraud or misconduct. 
+
+P&C provide internal documents and written advice using the business intranet site.
+
+### Corporate Services:
+
+Providing management of business finance, staffing and digital assets. 
+    
+    1.	Finance
+    2.	Human Resources
+    3.	IT Services
+    4.	Web Services
+
+The Finance and HR teams do not host information on web assets. The forms used for these processes are managed by a parent business unit. 
+
+IT Services create and maintain portal functions and updates as well as the third-party APIs. The content displayed on web pages for these assets is approved by the Web Services. Many IT assets work in conjunction with Web Services assets such as online forms that auto fill PDFs managed by Web Services.
+
+Web Services create and maintain PDFs through the Submission Form Handler and publication portals, web assets deployed through Squiz Matrix, intranet web assets on the internal server and provide subject matter expert advice on written content written content prior to publishing, user demographics and customer experience mapping and testing. 
+
+### Project Services:
+
+This team is activated as needed and manages large projects to overhaul existing services or create new products or services to align with changing societal needs. 
+The size and complexity of the work this team produces is directly related to the project and will generally result in additional work for Web Services across the full range of Web Services skill. 
+
+## Proposed solution
+
+An internal discussion board will allow for an informal conversation across the business to map and prioritise the next 12-month plan for CQI and allow priorities to pivot to accommodate and Business-as-usual or project work that may impact the planned deliverables. A greater number of staff will be able to see the current workload map and contribute meaningfully to workflow planning throughout the year, without the increased cost of additional Atlassian licences. 
+
+Discussion cards will essentially be a task the requester would like completed. These cards can be assigned a priority level and allocated a tag to identify the business unit responsible for the asset by an admin and progressed or rejected with a reason as needed. Staff will be able to maintain a conversation thread on the card.
+Admin will have the ability to edit the status of the discussion card, delete or archive cards. If possible, it would be good to add a Jira API to automate Jira status updates to discussion cards that progress to the Jira ticket system.  
+
