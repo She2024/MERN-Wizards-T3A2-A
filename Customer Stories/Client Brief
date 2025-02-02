@@ -1,7 +1,9 @@
 # Client Brief
 
 Our real-world client Life Stats is looking for an economic and efficient way for business units and sub-units to communicate and plan future workflow priorities for web asset Continuous Quality Improvement (CQI) while being able to pivot priorities when urgent tasks or project needs arise. 
-They currently use Trello and Jira for workflow management but wish to increase the level of staff collaboration without the cost of increasing user subscriptions. 
+
+The new communication structure will be managed by Web Services to help manage workflow prior to creating a job ticket in Jira.
+The Web Searvice team currently use Trello and Jira for workflow management but wish to increase the level of staff collaboration without the cost of increasing user subscriptions. 
 
 ## Understanding The Company:
 The Life Stats company consists of 5 main business units that are broken down into a further 9 sub-units. 
