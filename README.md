@@ -1,9 +1,9 @@
 # MERN-Wizards-T3A2-A
 Documentation and planning for  Discussion Board 
 ## MERN Wizards, the team:
-     *Sheree Kunne*
-     *Luke Harris*
-     *Jessica Vaz Martins*
+     Sheree Kunne
+     Luke Harris
+     Jessica Vaz Martins
 
 ##Description:
 
