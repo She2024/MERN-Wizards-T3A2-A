@@ -209,6 +209,74 @@ CMP1003-4.1: Dataflow Diagram
 - Marking Guide:
 CMP1003-4.2: Application Architecture Diagram
     - HD: Shows almost flawless understanding of the high level structure of the app
+1. **Frontend Layer**
+   - **User Interface (React.js)**
+     - **Components**
+       - Login/Registration Forms
+       - Post Creation and Listing
+       - Reply Management
+       - Notifications Display
+       - Web Assets and PDFs Display
+       - JIRA Ticket Status Indicator (showing In Progress, Awaiting Support, Complete)
+     - **Routing**
+       - Dashboard
+       - Post Details Page
+       - User Profile Page
+       - Assets and Services Page 
+
+2. **Backend Layer**
+   - **Server (Node.js with Express.js)**
+     - **Authentication Middleware**
+     - **API Endpoints**
+       - **User Routes**
+         - POST `/users/register`
+         - POST `/users/login`
+         - GET `/users/:id` (Profile)
+       - **Post Routes**
+         - POST `/posts` (create discussion)
+         - GET `/posts` (fetch all posts)
+         - GET `/posts/:id` (retrieve specific posts)
+         - PUT `/posts/:id` (update discussion)
+         - DELETE `/posts/:id` (delete discussion)
+         - **JIRA Integration Endpoint**
+           - POST `/jira/update-status` (updates discussion card with JIRA ticket status)
+       - **Reply Routes**
+         - POST `/replies` (create a reply)
+         - GET `/posts/:postId/replies` (fetch replies for a post)
+       - **Web Assets Routes**
+         - GET `/assets` (fetch web assets and PDFs related to discussions)
+       - **Notification Routes**
+         - GET `/notifications/:userId` (retrieve user notifications)
+
+3. **Database Layer**
+   - **MongoDB**
+     - **Collections**
+       - `Users`: Stores user profiles with classifications.
+       - `Posts`: Contains discussion topics.
+       - `Replies`: Links replies to their parent posts.
+       - `Assets`: Stores metadata for web assets and PDFs.
+       - `Notifications`: Manages user notification data.
+
+4. **Business Logic Layer**
+   - Handles user input, processes data, and integrates with the JIRA API to automatically update discussion statuses based on JIRA ticket progress.
+
+5. **Integration Layer**
+   - **JIRA API Integration**
+     - Links JIRA tickets to discussions, updating the discussion card status based on ticket updates.
+   - **External Services**
+     - Email/SMS service (We can use SendGrid or Twilio) for notifications.
+
+6. **Hosting & Deployment**
+   - **Frontend Deployment**: Hosted on Netlify for performance and scalability.
+   - **Backend Deployment**: Hosted on Render for efficient backend service management.
+   - **CI/CD Pipelines**: Automated deployment and testing (e.g., GitHub Actions).
+
+7. **Security Layer**
+   - Uses HTTPS for secure data transmission.
+   - Implements JWT (JSON Web Tokens) for user sessions.
+   - Input validation and sanitisation to prevent vulnerabilities.  
+
+[Link to A.A.D Diagram](./docs/A.A.D/A.A.D.png)
 
 -----
 ## R4:	User Stories	
