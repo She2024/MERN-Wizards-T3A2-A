@@ -167,6 +167,7 @@ CMP1003-4.1: Dataflow Diagram
   - **Archiving Posts**: Admins can archive posts that are no longer active but may need future reference.
   - **Updating Priority/Status**: Admins can adjust the priority label of posts to reflect their importance in current workflows.
 
+
 ### Diagram Structure
 
 - **User Table**:
@@ -203,6 +204,8 @@ CMP1003-4.1: Dataflow Diagram
   - Message: `message`
   - Created On: `creationDate`
   - Is Read: `isRead`
+
+![ER Diagram for Discussion Board app](./docs/ERD/er_diagramv2.drawio.png)
 
 -----
 ## R3:	Application Architecture Diagram	
