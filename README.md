@@ -106,8 +106,20 @@ The platform targets companies or groups that need to collaborate on workflow pl
    - Arrows indicating data flow between external entities and processes (e.g., Users -> User Registration/Login).
    - Arrows flowing into and out of data stores indicating storage and retrieval actions.
 
-### Main application flow
+#### Main application Flow
 [Link to Full App Dataflow Diagram](./docs/Flowchart/flowchart.png)
+#### Home-Dashboard Flow
+[Link to Home-Dashboard Dataflow Diagram](./docs/Flowchart/Home-dashboard.png)
+#### Registration-Login Flow
+[Link to Registration-Login Dataflow Diagram](./docs/Flowchart/Registration-login.png)
+#### User Flow 
+[Link to User Dataflow Diagram](./docs/Flowchart/user.png)
+#### Admin Flow
+[Link to Admin Dataflow Diagram](./docs/Flowchart/admin.png)
+#### PostCreation-Reply-Details Flow
+[Link to PostCreation-Reply-Details Dataflow Diagram](./docs/Flowchart/Postcreation-reply-details.png)
+#### Notification Flow
+[Link to Notifications Dataflow Diagram](./docs/Flowchart/notification.png)
 
 ### Entities and Relationships (ERD)
 
@@ -203,7 +215,7 @@ The platform targets companies or groups that need to collaborate on workflow pl
   - Created On: `creationDate`
   - Is Read: `isRead`
 
-[Link to ER Diagram V2 for Discussion Board app](./docs/ERD/er_diagramv2.drawio.png)
+[Link to ER Diagram for Discussion Board app](./docs/ERD/er_diagramv2.drawio.png)
 
 -----
 ## R3:	Application Architecture Diagram	
@@ -291,6 +303,44 @@ CMP1003-5.1: Provide UX/UI design documentation(user stories) that adequately sh
 - Marking Guide:
 CMP1003-5.2: Provide UX/UI design documentation(wireframes)
     - HD: Provides wireframes that show exceptional planning of project flow and structure including but not limited to space distribution, content prioritisation, intended actions, functions, relationships between screens.
+1. **Home/Dashboard Screen**
+   - **Purpose**: Provide an overview of current discussions, recent notifications, and quick access to key functions.
+   - **Key Features**: Post list with filtering options, notifications sidebar, quick links to create a post or access user profile.
+
+2. **Registration/Login Screen**
+   - **Purpose**: Allow users to sign up or log in to access the platform.
+   - **Key Features**: Simple, clean login form with fields for email/username, password, and buttons for login, registration, and password recovery.
+
+3. **Post Creation Screen**
+   - **Purpose**: Enable users to create new discussion posts.
+   - **Key Features**: Form fields for title, content, priority level, category, and optional JIRA ticket linking. Clear submit and cancel actions.
+
+4. **Post Detail & Discussion Screen**
+   - **Purpose**: Display full details of a post along with all replies.
+   - **Key Features**: Post content, list of replies, option to reply, like or follow the post, and admin functionalities if applicable (edit or delete).
+
+5. **Reply Creation Screen (Modal)**
+   - **Purpose**: Allow users to respond to posts.
+   - **Key Features**: Simple text area for content, submit button. Can be a modal overlay to streamline the user experience.
+
+6. **Notifications Screen**
+   - **Purpose**: Provide a centralised view of all notifications.
+   - **Key Features**: List of notifications with marks for read/unread status, links to the relevant posts, and settings for notification preferences.
+
+7. **User Profile Screen**
+   - **Purpose**: Display user information and settings.
+   - **Key Features**: User details, edit profile options, view past posts and replies, and an admin area for eligible users.
+
+8. **Admin Functions Screen**
+   - **Purpose**: Enable admin users to manage posts and users.
+   - **Key Features**: List and controls to archive, delete, or update priority for posts, user management options.
+
+### Responsive Layouts
+   - **Desktop Version**: Display full version of screens with all features accessible.
+   - **Tablet Version**: Compact arrangement to maintain functionality with adjusted layouts.
+   - **Mobile Version**: Streamlined design focusing on core functions, optimised for vertical scrolling and touch interactions.
+
+[Link to Login page wireframe](./docs/Wireframes/Login%20page.png)
 
 -----
 ## R6:	Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
