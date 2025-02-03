@@ -53,9 +53,6 @@ The platform targets companies or groups that need to collaborate on workflow pl
 - **Hosting**: The application is hosted on Netlify, ensuring reliable availability and scalability.
 -----
 ## R2: Dataflow Diagram	
-- Marking Guide:
-CMP1003-4.1: Dataflow Diagram
-    - HD: Provides dataflow diagram(s) that strictly follow the standard convensions to clearly identify the processes within your application. Clearly depicts where data is coming from, where it is going and how it is being stored.
 ### Level 0: Context Diagram
 
 1. **External Entities**
@@ -109,7 +106,8 @@ CMP1003-4.1: Dataflow Diagram
    - Arrows indicating data flow between external entities and processes (e.g., Users -> User Registration/Login).
    - Arrows flowing into and out of data stores indicating storage and retrieval actions.
 
-[Link to Dataflow Diagram](./docs/Flowchart/flowchart.png)
+### Main application flow
+[Link to Full App Dataflow Diagram](./docs/Flowchart/flowchart.png)
 
 ### Entities and Relationships (ERD)
 
@@ -205,7 +203,7 @@ CMP1003-4.1: Dataflow Diagram
   - Created On: `creationDate`
   - Is Read: `isRead`
 
-![ER Diagram for Discussion Board app](./docs/ERD/er_diagramv2.drawio.png)
+[Link to ER Diagram V2 for Discussion Board app](./docs/ERD/er_diagramv2.drawio.png)
 
 -----
 ## R3:	Application Architecture Diagram	
@@ -279,6 +277,7 @@ CMP1003-4.2: Application Architecture Diagram
    - Implements JWT (JSON Web Tokens) for user sessions.
    - Input validation and sanitisation to prevent vulnerabilities.  
 
+### A.A.Diagram
 [Link to A.A.D Diagram](./docs/A.A.D/A.A.D.png)
 
 -----

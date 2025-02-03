@@ -3,7 +3,7 @@
 Our real-world client Life Stats is looking for an economic and efficient way for business units and sub-units to communicate and plan future workflow priorities for web asset Continuous Quality Improvement (CQI) while being able to pivot priorities when urgent tasks or project needs arise. 
 
 The new communication structure will be managed by Web Services to help manage workflow prior to creating a job ticket in Jira.
-The Web Searvice team currently use Trello and Jira for workflow management but wish to increase the level of staff collaboration without the cost of increasing user subscriptions. 
+The Web Service team currently use Trello and Jira for workflow management but wish to increase the level of staff collaboration without the cost of increasing user subscriptions. 
 
 ## Understanding The Company:
 The Life Stats company consists of 5 main business units that are broken down into a further 9 sub-units. 
@@ -30,7 +30,7 @@ Responsible for managing the needs of large-scale clients under service agreemen
 Client Management maintain relationships with and managing the needs of large-scale clients under service agreements and community engagement and support for minority groups and vulnerable people. The collection of data, and processing of client requests are managed through the Service Portal and clients are assigned a dedicated client manager with specialised knowledge complimenting the client service needs. 
 
 Data Management team control collection of national data and dispersal of large data packets used for a research and data cleansing. They also process the applications for, and release of specialised data packets to authorised clients contracted for singular or regular data releases based on the approved contract. 
-Marketing team design and provided printed collateral for dispersal to targeted communities and groups to advance business initiatives. They also manage image licencing, brand partnership, news and social media content. 
+Marketing team design and provided printed collateral for dispersal to targeted communities and groups to advance business initiatives. They also manage image licensing, brand partnership, news and social media content. 
 
 ### Policy & Compliance:
 
@@ -60,7 +60,7 @@ The size and complexity of the work this team produces is directly related to th
 
 ## Proposed solution
 
-An internal discussion board will allow for an informal conversation across the business to map and prioritise the next 12-month plan for CQI and allow priorities to pivot to accommodate and Business-as-usual or project work that may impact the planned deliverables. A greater number of staff will be able to see the current workload map and contribute meaningfully to workflow planning throughout the year, without the increased cost of additional Atlassian licences. 
+An internal discussion board will allow for an informal conversation across the business to map and prioritise the next 12-month plan for CQI and allow priorities to pivot to accommodate and Business-as-usual or project work that may impact the planned deliverables. A greater number of staff will be able to see the current workload map and contribute meaningfully to workflow planning throughout the year, without the increased cost of additional Atlassian licenses. 
 
 Discussion cards will essentially be a task the requester would like completed. These cards can be assigned a priority level and allocated a tag to identify the business unit responsible for the asset by an admin and progressed or rejected with a reason as needed. Staff will be able to maintain a conversation thread on the card.
 Admin will have the ability to edit the status of the discussion card, delete or archive cards. If possible, it would be good to add a Jira API to automate Jira status updates to discussion cards that progress to the Jira ticket system.  
