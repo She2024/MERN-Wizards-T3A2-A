@@ -298,6 +298,35 @@ CMP1003-4.2: Application Architecture Diagram
 CMP1003-5.1: Provide UX/UI design documentation(user stories) that adequately show Agile methodology implementation.
     - HD: Provides multiple user stories that use ‘persona, what and why’ that outline meaningful features of project. Shows evidence of user story revision and refinement.
 
+
+### Persona: Wade Warren
+
+What? I need a service where I can change the priority of tasks when a task becomes urgent. Why? So critical marketing tasks get completed on time.
+
+What? I need a service where my team and I can reply to submitted requests with additional marketing notes or materials. Why? So the Web Services team has all the necessary assets and information to complete the work.
+
+What? I need a service where I can edit my request after submitting it.
+Why? So I can correct mistakes or update details without submitting a new request.
+
+What? I need a service where my requests are securely stored. Why? So I don’t lose important information and can reference past submissions.
+
+What? I need a service where my team can see all submitted requests and their priorities. Why? So everyone knows what tasks are being worked on and which ones are the highest priority.
+
+
+Persona: Anna Williamson
+
+What? I need a service where I can submit requests for event updates on the discussion board. Why? So the Web Services team can update event details efficiently without needing a Jira ticket for every change.
+
+What? I need a service where I can set priority levels for event-related requests. Why? So urgent updates, like last-minute schedule changes such as event cancellation, are addressed quickly.
+
+What? I need a service where I can reply to task requests. Why? So I don’t have to submit a new request every time minor adjustments are needed.
+
+What: I need a service where I get a notification when someone replies to my post.
+Why? So I can stay updated on my request without constantly checking the discussion board.
+
+What? I need a service where I can overview the discussion board before posting a request. Why? So I don’t duplicate an existing request.
+
+
 -----
 ## R5:	Wireframes for multiple standard screen sizes, created using industry standard software	  
 - Marking Guide:
