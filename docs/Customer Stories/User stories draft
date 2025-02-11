@@ -1,0 +1,69 @@
+# This is a collection of user stories drafted in our Mern Wizard Team Discord 
+
+## All 3 team members contributed to these stories across numerous days.  
+
+User Story 1:
+Persona: As a member of the Project Services team,
+What: I want to have the ability to maintain a conversation thread on each discussion card,
+Why: So that I can engage with other team members to clarify requests, gather input, and discuss project impacts in real-time, fostering collaboration.
+
+User Story 2:
+Persona: As a member of the Project Services team,
+What: I want to have the ability to maintain a conversation thread on each discussion card,
+Why: So that I can engage with other team members to clarify requests, gather input, and discuss project impacts in real-time, fostering collaboration.
+
+User Story 3:
+Persona: As an Admin,
+What: I want to integrate the discussion board with the Jira API for automatic status updates,
+Why: So that I can streamline the process of moving tasks from discussion to the ticketing system, reducing manual entry and increasing efficiency.
+
+User Story 4 - High-Level Admin:
+Persona: As the Web Services Manager,
+What: I want to have oversight over all discussion cards created across business units,
+Why: So that I can ensure that the most urgent tasks are prioritised, allocate resources efficiently, and maintain a cohesive strategy for the overall workflow, aligning with organisational goals.
+
+User story 5 - General User:
+Persona: As a Marketing Coordinator in Business Development,
+What: I want to submit requests through the discussion board for new marketing materials,
+Why: So that I can ensure my requests are documented, prioritised, and addressed promptly by the appropriate team, facilitating the timely rollout of marketing initiatives. 
+
+User Story 6:
+What: I want to review and approve discussion cards before they are sent to Jira tickets,
+Why: To maintain control over the project pipeline, ensuring that only valid requests that contribute to our goals are progressed and minimizing wasted effort.
+
+User Story 7:
+What: I need to delete or archive outdated discussion cards,
+Why: To keep the discussion board organized and relevant, ensuring that team members can easily find current priorities without distraction from obsolete tasks.
+
+User Story 8:
+What: I need to assess incoming requests before they progress to a Jira ticket to reduce duplicate and invalid work tickets in the subscription service platform. 
+Why: To save unnecessary cost and confusion for priority workloads.
+
+User Story 9: Post Creation
+Persona: As a project manager,
+What: I want to create a new discussion post about an upcoming project milestone.
+Why: This allows my team to align on priorities and address any questions or concerns early in the planning process.
+
+User Story 10: Reply to a Post
+Persona: As a team member,
+What: I want to reply to a discussion post so that I can provide my insights and feedback.
+Why: Engaging in discussions enhances collaboration and helps ensure that everyone's input is considered in decision-making.
+
+User Story 11: Reading Notifications
+Persona: As a registered user,
+What: I want to receive notifications about updates and replies to discussions I'm involved in.
+Why: Staying informed on ongoing discussions helps me contribute timely input and stay engaged with my team’s progress.
+
+User Story 12: Search Functionality
+Persona: As a user with limited time,
+What: I want to be able to search for specific topics within the discussion board.
+Why: This helps me quickly find relevant information without sifting through numerous discussions, saving me time and effort.
+
+User Story 13: User Classification Management
+Persona: As an administrator,
+What: I want to manage user classifications (Admin, Regular User) so that I can control permissions and access levels.
+Why: This ensures that sensitive actions, such as deleting posts or changing user roles, are only performed by authorized personnel.
+
+User Story 14:
+User Registration Persona: As a current employee in the organisation,
+What: I want to ensure my account details are secured so that I can access the platform safely and maintain control over my personal and work-related information. 
