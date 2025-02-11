@@ -219,9 +219,6 @@ The platform targets companies or groups that need to collaborate on workflow pl
 
 -----
 ## R3:	Application Architecture Diagram	
-- Marking Guide:
-CMP1003-4.2: Application Architecture Diagram
-    - HD: Shows almost flawless understanding of the high level structure of the app
 1. **Frontend Layer**
    - **User Interface (React.js)**
      - **Components**
@@ -326,12 +323,10 @@ Why? So I can stay updated on my request without constantly checking the discuss
 
 What? I need a service where I can overview the discussion board before posting a request.Why? So I don’t duplicate an existing request.
 
+[Link to customer stories folder](./docs/Customer%20Stories/)  
 
 -----
-## R5:	Wireframes for multiple standard screen sizes, created using industry standard software	  
-- Marking Guide:
-CMP1003-5.2: Provide UX/UI design documentation(wireframes)
-    - HD: Provides wireframes that show exceptional planning of project flow and structure including but not limited to space distribution, content prioritisation, intended actions, functions, relationships between screens.
+## R5:	Wireframes for multiple standard screen sizes, created using industry standard software	    
 1. **Home/Dashboard Screen**
    - **Purpose**: Provide an overview of current discussions, recent notifications, and quick access to key functions.
    - **Key Features**: Post list with filtering options, notifications sidebar, quick links to create a post or access user profile.
@@ -369,10 +364,24 @@ CMP1003-5.2: Provide UX/UI design documentation(wireframes)
    - **Tablet Version**: Compact arrangement to maintain functionality with adjusted layouts.
    - **Mobile Version**: Streamlined design focusing on core functions, optimised for vertical scrolling and touch interactions.
 
-[Link to Login page wireframe](./docs/Wireframes/Login%20page.png)
+[Link to wireframes folder](./docs/Wireframes/)  
+[Link to colour choices folder](./docs/Colour%20selection/)
 
 -----
 ## R6:	Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
 - Marking Guide:
 CMP1003-6.1: Select and follow a commonly used planning methodology, such as Kanban, Trello, Jira, or Asana, that adequately show Agile methodology implementation.
-    - HD: Simple and clear standards for planning methodology chosen and adhered to
+    - HD: Simple and clear standards for planning methodology chosen and adhered to  
+### Trello Board
+Our project utilised Trello as our chosen Kanban system to implement Agile methodology effectively throughout the project duration. Trello's visual interface allowed us to maintain clear and simple standards for task management and prioritized efficient workflows.
+
+#### Planning Methodology
+- **Columns Setup**: Our Trello board was organised into columns representing key stages of development: * add collumn names here *
+
+#### Agile Implementation
+- **Task Cards**: Each task card included detailed descriptions, due dates, assignees, and relevant attachments or links. This level of detail maintained clarity and transparency, ensuring all team members could contribute effectively.
+
+#### Project Progression
+- **Screenshots**: Throughout the project, we captured screenshots of our Trello board to document the evolution of our task management. These screenshots demonstrate how the board aided in visualising progress.
+
+[Link to project screenshot folders](./docs/Project%20screenshots/)
