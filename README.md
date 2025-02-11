@@ -369,14 +369,12 @@ What? I need a service where I can overview the discussion board before posting 
 
 -----
 ## R6:	Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
-- Marking Guide:
-CMP1003-6.1: Select and follow a commonly used planning methodology, such as Kanban, Trello, Jira, or Asana, that adequately show Agile methodology implementation.
-    - HD: Simple and clear standards for planning methodology chosen and adhered to  
+
 ### Trello Board
 Our project utilised Trello as our chosen Kanban system to implement Agile methodology effectively throughout the project duration. Trello's visual interface allowed us to maintain clear and simple standards for task management and prioritized efficient workflows.
 
 #### Planning Methodology
-- **Columns Setup**: Our Trello board was organised into columns representing key stages of development: * add collumn names here *
+- **Columns Setup**: Our Trello board was organised into columns representing key stages of development: Design, Up Next, In Progress, Submitted, Building, Testing, Completed, Part B Standby.
 
 #### Agile Implementation
 - **Task Cards**: Each task card included detailed descriptions, due dates, assignees, and relevant attachments or links. This level of detail maintained clarity and transparency, ensuring all team members could contribute effectively.
