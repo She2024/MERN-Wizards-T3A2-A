@@ -308,9 +308,10 @@ Why? So I can correct mistakes or update details without submitting a new reques
 What? I need a service where my requests are securely stored. Why? So I don’t lose important information and can reference past submissions.
 
 What? I need a service where my team can see all submitted requests and their priorities.Why? So everyone knows what tasks are being worked on and which ones are the highest priority.
+#### Persona Card
+[Link to Wade Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%202_V1.png)  
 
-
-Persona: Anna Williamson
+### Persona: Anna Williamson
 
 What? I need a service where I can submit requests for event updates on the discussion board.Why? So the Web Services team can update event details efficiently without needing a Jira ticket for every change.
 
@@ -322,8 +323,26 @@ What: I need a service where I get a notification when someone replies to my pos
 Why? So I can stay updated on my request without constantly checking the discussion board.
 
 What? I need a service where I can overview the discussion board before posting a request.Why? So I don’t duplicate an existing request.
+#### Persona Card
+[Link to Anna Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%203_V1.png)  
 
-[Link to customer stories folder](./docs/Customer%20Stories/)  
+#### Other Persona Cards
+We have two other Personas outlined on the cards bellow.  
+
+[Link to Lois Lane Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%201_V1.png)  
+[Link to Bruce Banner Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%204_V1.png)  
+
+### Links
+#### Customer Stories folder
+[Link to Customer Stories folder](./docs/Customer%20Stories/)  
+
+#### Client Brief
+[Link to Client Brief](./docs/Customer%20Stories/Client%20Brief)  
+
+#### User Stories draft
+[Link to client brief](./docs/Customer%20Stories/User%20stories%20draft)  
+
+
 
 -----
 ## R5:	Wireframes for multiple standard screen sizes, created using industry standard software	    
