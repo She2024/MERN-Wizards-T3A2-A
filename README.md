@@ -24,7 +24,9 @@ The discussion board will support informal conversations across the business to 
 - **JIRA API Link to the Cards**: Integrate with JIRA via its API, allowing users to link discussion threads directly to JIRA cards. This facilitates a seamless transition between planning and execution phases by maintaining direct access to task details and status updates within the JIRA platform.
 
 ### Target Audience
-The platform targets companies or groups that need to collaborate on workflow planning and establish open discussion channels.
+This build is specifically designed for our client, Life Stats, to address their unique communication and workflow challenges. However, the platform is also a versatile tool that can greatly benefit any company or group looking to improve collaboration, streamline workflow planning, and establish open channels for discussion.  
+
+#### Key Stakeholders
 - **Project Managers**: To oversee and prioritise project discussions and workflows.
 - **Team Leads**: To engage their teams in collaborative discussions and contribute to setting priorities.
 - **Staff Members**: To participate in discussions, offer insights, and help in decision-making processes related to workflow priorities.
@@ -227,7 +229,6 @@ The platform targets companies or groups that need to collaborate on workflow pl
        - Reply Management
        - Notifications Display
        - Web Assets and PDFs Display
-       - JIRA Ticket Status Indicator (showing In Progress, Awaiting Support, Complete)
      - **Routing**
        - Dashboard
        - Post Details Page
@@ -271,8 +272,6 @@ The platform targets companies or groups that need to collaborate on workflow pl
    - Handles user input, processes data, and integrates with the JIRA API to automatically update discussion statuses based on JIRA ticket progress.
 
 5. **Integration Layer**
-   - **JIRA API Integration**
-     - Links JIRA tickets to discussions, updating the discussion card status based on ticket updates.
    - **External Services**
      - Email/SMS service (We can use SendGrid or Twilio) for notifications.
 
@@ -291,10 +290,9 @@ The platform targets companies or groups that need to collaborate on workflow pl
 
 -----
 ## R4:	User Stories	
-- Marking Guide:
-CMP1003-5.1: Provide UX/UI design documentation(user stories) that adequately show Agile methodology implementation.
-    - HD: Provides multiple user stories that use ‘persona, what and why’ that outline meaningful features of project. Shows evidence of user story revision and refinement.
+We have developed four personas, each with at least two user stories that capture their needs and interactions with our application. These personas help us understand and address the diverse requirements of our users, ensuring the app's design remains user-centric and effective.
 
+There is a detailed persona below, and follow the links to view all four of our personas:
 
 ### Persona: Wade Warren
 
@@ -307,28 +305,12 @@ Why? So I can correct mistakes or update details without submitting a new reques
 
 What? I need a service where my requests are securely stored. Why? So I don’t lose important information and can reference past submissions.
 
-What? I need a service where my team can see all submitted requests and their priorities.Why? So everyone knows what tasks are being worked on and which ones are the highest priority.
-#### Persona Card
+What? I need a service where my team can see all submitted requests and their priorities. Why? So everyone knows what tasks are being worked on and which ones are the highest priority.
+
+#### Persona Cards
+We have the other Personas outlined on the cards bellow.  
 [Link to Wade Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%202_V1.png)  
-
-### Persona: Anna Williamson
-
-What? I need a service where I can submit requests for event updates on the discussion board.Why? So the Web Services team can update event details efficiently without needing a Jira ticket for every change.
-
-What? I need a service where I can set priority levels for event-related requests.Why? So urgent updates, like last-minute schedule changes such as event cancellation, are addressed quickly.
-
-What? I need a service where I can reply to task requests.Why? So I don’t have to submit a new request every time minor adjustments are needed.
-
-What: I need a service where I get a notification when someone replies to my post.
-Why? So I can stay updated on my request without constantly checking the discussion board.
-
-What? I need a service where I can overview the discussion board before posting a request.Why? So I don’t duplicate an existing request.
-#### Persona Card
-[Link to Anna Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%203_V1.png)  
-
-#### Other Persona Cards
-We have two other Personas outlined on the cards bellow.  
-
+[Link to Anna Williamson Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%203_V1.png)   
 [Link to Lois Lane Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%201_V1.png)  
 [Link to Bruce Banner Persona Card](./docs/Customer%20Stories/User%20stories%20Persona%204_V1.png)  
 
@@ -342,49 +324,81 @@ We have two other Personas outlined on the cards bellow.
 #### User Stories draft
 [Link to client brief](./docs/Customer%20Stories/User%20stories%20draft)  
 
-
-
 -----
 ## R5:	Wireframes for multiple standard screen sizes, created using industry standard software	    
 1. **Home/Dashboard Screen**
    - **Purpose**: Provide an overview of current discussions, recent notifications, and quick access to key functions.
-   - **Key Features**: Post list with filtering options, notifications sidebar, quick links to create a post or access user profile.
+   - **Key Features**: Post list with filtering options, notifications sidebar, quick links to create a post or access user profile.  
+
+[Link to Home/Dashboard Wireframe](./docs/Wireframes/Dashboard-Home%20page%20wireframe_V1.png)  
+[Link to Home/Dashboard Wireframe Coloured](./docs/Wireframes/Dashboard-Home%20page%20wireframe_V2.png)  
+
 
 2. **Registration/Login Screen**
    - **Purpose**: Allow users to sign up or log in to access the platform.
    - **Key Features**: Simple, clean login form with fields for email/username, password, and buttons for login, registration, and password recovery.
 
+[Link to Registration/Login Screen Wireframe](./docs/Wireframes/Login%20page.png)  
+[Link to Registration/Login Screen Wireframe Coloured](./docs/Wireframes/Login%20page%20colours.png)  
+
 3. **Post Creation Screen**
    - **Purpose**: Enable users to create new discussion posts.
-   - **Key Features**: Form fields for title, content, priority level, category, and optional JIRA ticket linking. Clear submit and cancel actions.
+   - **Key Features**: Form fields for title, content, priority level, category, and (future update) JIRA ticket linking. Clear submit and cancel actions.
+
+[Link to Post Creation Screen Wireframe](./docs/Wireframes/PostCreation_page.png)    
+[Link to Post Creation Screen Wireframe Coloured](./docs/Wireframes/PostCreation_colour.png)  
+
 
 4. **Post Detail & Discussion Screen**
    - **Purpose**: Display full details of a post along with all replies.
    - **Key Features**: Post content, list of replies, option to reply, like or follow the post, and admin functionalities if applicable (edit or delete).
 
+[Link to Post Detail Screen Wireframe](./docs/Wireframes/PostCreation_page.png)  
+[Link to Post Detail Screen Wireframe Coloured](./docs/Wireframes/PostDetails_colour.png)
+
 5. **Reply Creation Screen (Modal)**
    - **Purpose**: Allow users to respond to posts.
    - **Key Features**: Simple text area for content, submit button. Can be a modal overlay to streamline the user experience.
+
+[Link to Reply Creation Screen Wireframe](./docs/Wireframes/Reply_ModalStyle_page.png)  
+[Link to Reply Creation Screen Wireframe Coloured](./docs/Wireframes/Reply_ModalStyle_colour.png)
 
 6. **Notifications Screen**
    - **Purpose**: Provide a centralised view of all notifications.
    - **Key Features**: List of notifications with marks for read/unread status, links to the relevant posts, and settings for notification preferences.
 
+[Link to Notifications Screen Wireframe](./docs/Wireframes/Notification%20page.png)  
+[Link to Notifications Screen Wireframe Coloured](./docs/Wireframes/Notifications%20colour.png)
+
 7. **User Profile Screen**
    - **Purpose**: Display user information and settings.
    - **Key Features**: User details, edit profile options, view past posts and replies, and an admin area for eligible users.
 
+[Link to User Profile Screen Wireframe](./docs/Wireframes/Profile%20page%20wireframe_V3.png)    
+[Link to User Profile Screen Wireframe Coloured](./docs/Wireframes/Profile%20page%20wireframe_V6.png)  
+
 8. **Admin Functions Screen**
    - **Purpose**: Enable admin users to manage posts and users.
    - **Key Features**: List and controls to archive, delete, or update priority for posts, user management options.
+
+[Link to Admin Functions Screen Wireframe](./docs/Wireframes/Admin%20functions.png)  
+[Link to Admin Functions Screen Wireframe Coloured](./docs/Wireframes/Admin%20function%20colour.png)
 
 ### Responsive Layouts
    - **Desktop Version**: Display full version of screens with all features accessible.
    - **Tablet Version**: Compact arrangement to maintain functionality with adjusted layouts.
    - **Mobile Version**: Streamlined design focusing on core functions, optimised for vertical scrolling and touch interactions.
 
+### Other Links
+#### Wireframes folder
 [Link to wireframes folder](./docs/Wireframes/)  
-[Link to colour choices folder](./docs/Colour%20selection/)
+
+#### WCAG Reports
+[Link to WCAG Reports folder](./docs/Project%20screenshots/Colour%20selection/Colour%20blind%20checks/WCAG%20Reports/)
+
+#### Colour blindness checks
+[Link to Colour Blind Check 1](./docs/Project%20screenshots/Colour%20selection/Colour%20blind%20checks/Colour%20blindness%20checks/ColourBlind_check1.png)  
+[Link to Colour Blind Check 2](./docs/Project%20screenshots/Colour%20selection/Colour%20blind%20checks/Colour%20blindness%20checks/ColourBlind_check2.png) 
 
 -----
 ## R6:	Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
@@ -401,4 +415,15 @@ Our project utilised Trello as our chosen Kanban system to implement Agile metho
 #### Project Progression
 - **Screenshots**: Throughout the project, we captured screenshots of our Trello board to document the evolution of our task management. These screenshots demonstrate how the board aided in visualising progress.
 
-[Link to project screenshot folders](./docs/Project%20screenshots/)
+#### Links
+[Link to Trello Board folder](./docs/Project%20screenshots/Trello%20board/)  
+[Link to Planning and management cards folder](./docs/Project%20screenshots/Planning%20and%20management%20cards/)  
+[Link to Concept Cards folder](./docs/Project%20screenshots/Concept%20card/)  
+[Link to Diagrams Cards folder](./docs/Project%20screenshots/Diagrams%20Cards/)  
+[Link to Personas and User stories cards folder](./docs/Project%20screenshots/Personas%20and%20User%20stories/)  
+[Link to Wireframes cards folder](./docs/Project%20screenshots/Wireframes%20Card/)  
+[Link to Resources and inspo card folder](./docs/Project%20screenshots/Resources%20and%20inspo%20Cards/)  
+[Link to Building folder](./docs/Project%20screenshots/Building%20-%20PartB/)  
+
+
+
