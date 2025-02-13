@@ -1,9 +1,15 @@
 # MERN-Wizards-T3A2-A
-Documentation and planning for  Discussion Board 
+Documentation and planning for Discussion Board.
 ## MERN Wizards, the team:
      Sheree Kunne
      Luke Harris
      Jessica Vaz Martins
+
+
+## Build plan
+We have created this simple build plan to outline the key stages of our development process. It will ensure that we follow a clear and structured approach from the initial stage to deployment. The guide includes important steps such as project initialisation, frontend and backend setup and integration, feature implementation, testing, and optimisation. We will work together through all areas to upskill and gain knowledge in all aspects while. By collaborating, we aim to deliver an application that is well-structured and functional.
+
+[Link to Building file](./docs/Building/BuildPlan.png)  
 
 ## R1: Project Overview:
 ### Description
@@ -423,7 +429,7 @@ Our project utilised Trello as our chosen Kanban system to implement Agile metho
 [Link to Personas and User stories cards folder](./docs/Project%20screenshots/Personas%20and%20User%20stories/)  
 [Link to Wireframes cards folder](./docs/Project%20screenshots/Wireframes%20Card/)  
 [Link to Resources and inspo card folder](./docs/Project%20screenshots/Resources%20and%20inspo%20Cards/)  
-[Link to Building folder](./docs/Project%20screenshots/Building%20-%20PartB/)  
+
 
 
 
