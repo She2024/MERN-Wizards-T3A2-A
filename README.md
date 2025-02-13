@@ -1,9 +1,9 @@
 # MERN-Wizards-T3A2-A
 Documentation and planning for Discussion Board.
 ## MERN Wizards, the team:
-     [Sheree Kunne](https://github.com/She2024)
-     [Luke Harris](https://github.com/LukeZHar)
-     [Jessica Vaz Martins](https://github.com/Jessicavazm)
+   [Sheree Kunne Github](https://github.com/She2024)  
+   [Luke Harris Github](https://github.com/LukeZHar)  
+   [Jessica Vaz Martins Github](https://github.com/Jessicavazm)  
 
  [Link to Mern Wizards Discord](https://discord.gg/nSXs3bvD)    
 
@@ -15,9 +15,9 @@ We have created this simple build plan to outline the key stages of our developm
 
 ## R1: Project Overview:
 
-![A Ticket A Task-it Brand Icon](./docs/Brand icons/Product Icon.png)
+![A Ticket A Task-it Brand Icon](./docs/Brand%20icons/Product%20Icon.png)
 
-### [A Ticket A Task-it product teaser](./docs/Presentation /Group Project.pdf)
+### [A Ticket A Task-it product teaser](./docs/Presentation%20/Group%20Project.pdf)
 
 ### Description
 The platform is a discussion board designed to enable staff or group members to discuss and set workflow priorities. It incorporates user registration and classification to manage permissions for interacting with, deleting, or archiving threads. 
