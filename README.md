@@ -1,9 +1,11 @@
 # MERN-Wizards-T3A2-A
 Documentation and planning for Discussion Board.
 ## MERN Wizards, the team:
-     Sheree Kunne
-     Luke Harris
-     Jessica Vaz Martins
+     [Sheree Kunne](https://github.com/She2024)
+     [Luke Harris](https://github.com/LukeZHar)
+     [Jessica Vaz Martins](https://github.com/Jessicavazm)
+
+ [Link to Mern Wizards Discord](https://discord.gg/nSXs3bvD)    
 
 
 ## Build plan
@@ -12,6 +14,11 @@ We have created this simple build plan to outline the key stages of our developm
 [Link to Building file](./docs/Building/BuildPlan.png)  
 
 ## R1: Project Overview:
+
+![A Ticket A Task-it Brand Icon](./docs/Brand icons/Product Icon.png)
+
+### [A Ticket A Task-it product teaser](./docs/Presentation /Group Project.pdf)
+
 ### Description
 The platform is a discussion board designed to enable staff or group members to discuss and set workflow priorities. It incorporates user registration and classification to manage permissions for interacting with, deleting, or archiving threads. 
 
@@ -410,7 +417,7 @@ We have the other Personas outlined on the cards bellow.
 ## R6:	Screenshots of your Trello (or similar kanban system) board throughout the duration of the project
 
 ### Trello Board
-Our project utilised Trello as our chosen Kanban system to implement Agile methodology effectively throughout the project duration. Trello's visual interface allowed us to maintain clear and simple standards for task management and prioritized efficient workflows.
+Our project utilised Trello as our chosen Kanban system, used in conjunction with our purpose created Mern Wizards group Discord, to implement Agile methodology effectively throughout the project duration. Trello's visual interface allowed us to maintain clear and simple standards for task management and prioritized efficient workflows.
 
 #### Planning Methodology
 - **Columns Setup**: Our Trello board was organised into columns representing key stages of development: Design, Up Next, In Progress, Submitted, Building, Testing, Completed, Part B Standby.
@@ -422,6 +429,7 @@ Our project utilised Trello as our chosen Kanban system to implement Agile metho
 - **Screenshots**: Throughout the project, we captured screenshots of our Trello board to document the evolution of our task management. These screenshots demonstrate how the board aided in visualising progress.
 
 #### Links
+[Link to Mern Wizards Discord](https://discord.gg/nSXs3bvD)
 [Link to Trello Board folder](./docs/Project%20screenshots/Trello%20board/)  
 [Link to Planning and management cards folder](./docs/Project%20screenshots/Planning%20and%20management%20cards/)  
 [Link to Concept Cards folder](./docs/Project%20screenshots/Concept%20card/)  
