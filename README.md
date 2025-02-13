@@ -429,7 +429,7 @@ Our project utilised Trello as our chosen Kanban system, used in conjunction wit
 - **Screenshots**: Throughout the project, we captured screenshots of our Trello board to document the evolution of our task management. These screenshots demonstrate how the board aided in visualising progress.
 
 #### Links
-[Link to Mern Wizards Discord](https://discord.gg/nSXs3bvD)
+[Link to Mern Wizards Discord](https://discord.gg/nSXs3bvD)   
 [Link to Trello Board folder](./docs/Project%20screenshots/Trello%20board/)  
 [Link to Planning and management cards folder](./docs/Project%20screenshots/Planning%20and%20management%20cards/)  
 [Link to Concept Cards folder](./docs/Project%20screenshots/Concept%20card/)  
