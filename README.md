@@ -21,7 +21,7 @@ The discussion board will support informal conversations across the business to 
 - **Priority/Category Labels**: Helps in organising discussions.
 - **Notifications**: Alerts users to updates or new topics.
 - **Admin Functions**: Includes options to delete, archive, and set priority levels for discussions.
-- **JIRA API Link to the Cards**: Integrate with JIRA via its API, allowing users to link discussion threads directly to JIRA cards. This facilitates a seamless transition between planning and execution phases by maintaining direct access to task details and status updates within the JIRA platform.
+- **JIRA API Link to the Cards(Future application idea)**: Integrate with JIRA via its API, allowing users to link discussion threads directly to JIRA cards. This facilitates a seamless transition between planning and execution phases by maintaining direct access to task details and status updates within the JIRA platform.
 
 ### Target Audience
 This build is specifically designed for our client, Life Stats, to address their unique communication and workflow challenges. However, the platform is also a versatile tool that can greatly benefit any company or group looking to improve collaboration, streamline workflow planning, and establish open channels for discussion.  
@@ -59,7 +59,7 @@ This build is specifically designed for our client, Life Stats, to address their
 
 1. **External Entities**
    - **Users**: Both regular users and admin users who interact with the system.
-   - **JIRA System**: External API integration for ticket status updates.
+   - **JIRA System (Future application idea)**: External API integration for ticket status updates.
    - **Email/SMS Notification Service**: Used for sending notifications.
 
 2. **System**
@@ -77,7 +77,7 @@ This build is specifically designed for our client, Life Stats, to address their
      - **Inputs**: Post details such as title, content, priority, and category.
      - **Outputs**: Confirmation of creation, updates, or error messages.
      - **Storage**: Post data stored in the Posts table; linked to User table.
-     - **External Influences**: Updates from JIRA reflecting changes to related posts (statuses).
+     - **External Influences (Future application idea)**: Updates from JIRA reflecting changes to related posts (statuses).
 
    - **Participate in Discussions (P3)**
      - **Inputs**: Replies to posts.
@@ -249,7 +249,7 @@ This build is specifically designed for our client, Life Stats, to address their
          - GET `/posts/:id` (retrieve specific posts)
          - PUT `/posts/:id` (update discussion)
          - DELETE `/posts/:id` (delete discussion)
-         - **JIRA Integration Endpoint**
+         - **JIRA Integration Endpoint (Future application idea)**
            - POST `/jira/update-status` (updates discussion card with JIRA ticket status)
        - **Reply Routes**
          - POST `/replies` (create a reply)
@@ -269,7 +269,7 @@ This build is specifically designed for our client, Life Stats, to address their
        - `Notifications`: Manages user notification data.
 
 4. **Business Logic Layer**
-   - Handles user input, processes data, and integrates with the JIRA API to automatically update discussion statuses based on JIRA ticket progress.
+   - Handles user input, processes data, and integrates with the JIRA API (Future application idea) to automatically update discussion statuses based on JIRA ticket progress.
 
 5. **Integration Layer**
    - **External Services**
