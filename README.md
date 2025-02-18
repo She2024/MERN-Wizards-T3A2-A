@@ -7,6 +7,7 @@ Documentation and planning for Discussion Board.
 
  [Link to Mern Wizards Discord](https://discord.gg/nSXs3bvD)    
 
+![Group Logo](./docs/Brand%20icons/Group_Logo.png)
 
 ## Build plan
 We have created this simple build plan to outline the key stages of our development process. It will ensure that we follow a clear and structured approach from the initial stage to deployment. The guide includes important steps such as project initialisation, frontend and backend setup and integration, feature implementation, testing, and optimisation. We will work together through all areas to upskill and gain knowledge in all aspects. By collaborating, we aim to deliver an application that is well-structured and fully functional.
